@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108666" started-at="2019-06-13T12:59:03Z" finished-at="2019-06-13T13:00:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="108666" started-at="2019-06-13T12:59:03Z" finished-at="2019-06-13T13:00:52Z">
+      <class name="TestCases.SmokeTest">
+        <test-method status="PASS" signature="HP_LoginTAUS()[pri:0, instance:TestCases.SmokeTest@4501b7af]" name="HP_LoginTAUS" is-config="true" duration-ms="72001" started-at="2019-06-13T12:59:03Z" finished-at="2019-06-13T13:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HP_LoginTAUS -->
+        <test-method status="PASS" signature="HP_TristateIssue()[pri:1, instance:TestCases.SmokeTest@4501b7af]" name="HP_TristateIssue" duration-ms="139" started-at="2019-06-13T13:00:15Z" finished-at="2019-06-13T13:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HP_TristateIssue -->
+        <test-method status="PASS" signature="Username_Dropdown()[pri:2, instance:TestCases.SmokeTest@4501b7af]" name="Username_Dropdown" duration-ms="534" started-at="2019-06-13T13:00:16Z" finished-at="2019-06-13T13:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username_Dropdown -->
+        <test-method status="PASS" signature="HP_TodaysPaper()[pri:3, instance:TestCases.SmokeTest@4501b7af]" name="HP_TodaysPaper" duration-ms="34817" started-at="2019-06-13T13:00:16Z" finished-at="2019-06-13T13:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HP_TodaysPaper -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestCases.SmokeTest@4501b7af]" name="afterClass" is-config="true" duration-ms="1107" started-at="2019-06-13T13:00:51Z" finished-at="2019-06-13T13:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestCases.SmokeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
