@@ -152,6 +152,7 @@ import org.testng.annotations.Test;
 			WebElement NextArticleElement3 = Next_articleWait3.until(ExpectedConditions.visibilityOfElementLocated(
 					By.xpath("//div[@class='articles_container']//div[@class='selected_article']")));
 			System.out.println("4th Next selected article page is:\t" + NextArticleElement3.getText());
+			System.out.println("end of the tests");
 		}
 		
 
