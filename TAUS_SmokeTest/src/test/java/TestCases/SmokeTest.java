@@ -141,7 +141,7 @@ import org.testng.annotations.Test;
 			WebDriverWait Next_articleWait2 = new WebDriverWait(driver, 10);
 			WebElement NextArticleElement2 = Next_articleWait2.until(ExpectedConditions.visibilityOfElementLocated(
 					By.xpath("//div[@class='articles_container']//div[@class='selected_article']")));
-			System.out.println("\n**3rd Next selected article page is:\t" + NextArticleElement2.getText()+"**");
+			System.out.println("\n"+"**3rd Next selected article page is:\t" + NextArticleElement2.getText()+"**");
 			// Next article
 			WebElement Next_pageElement3 = Next_pageWait.until(ExpectedConditions
 					.elementToBeClickable(driver.findElement(By.xpath("//div[@id='content']//div[@id='next-page']"))));
